@@ -1,0 +1,101 @@
+> source( "trainModel.R" )
+Segmentation with 2 labels: 01.
+Reading training data (n = 25230)
+  |======================================================================| 100%
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/ops/gradients_impl.py:97: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+Train on 20184 samples, validate on 5046 samples
+Epoch 1/40
+20184/20184 [==============================] - 787s 39ms/step - loss: -0.9146 - multilabel_dice_coefficient: 0.9146 - val_loss: -0.9581 - val_multilabel_dice_coefficient: 0.9581
+Epoch 2/40
+20184/20184 [==============================] - 149s 7ms/step - loss: -0.9650 - multilabel_dice_coefficient: 0.9650 - val_loss: -0.9664 - val_multilabel_dice_coefficient: 0.9664
+Epoch 3/40
+20184/20184 [==============================] - 133s 7ms/step - loss: -0.9729 - multilabel_dice_coefficient: 0.9729 - val_loss: -0.9753 - val_multilabel_dice_coefficient: 0.9753
+Epoch 4/40
+20184/20184 [==============================] - 131s 6ms/step - loss: -0.9770 - multilabel_dice_coefficient: 0.9770 - val_loss: -0.9733 - val_multilabel_dice_coefficient: 0.9733
+Epoch 5/40
+20184/20184 [==============================] - 131s 6ms/step - loss: -0.9796 - multilabel_dice_coefficient: 0.9796 - val_loss: -0.9807 - val_multilabel_dice_coefficient: 0.9807
+Epoch 6/40
+20184/20184 [==============================] - 131s 6ms/step - loss: -0.9813 - multilabel_dice_coefficient: 0.9813 - val_loss: -0.9818 - val_multilabel_dice_coefficient: 0.9818
+Epoch 7/40
+20184/20184 [==============================] - 131s 6ms/step - loss: -0.9822 - multilabel_dice_coefficient: 0.9822 - val_loss: -0.9833 - val_multilabel_dice_coefficient: 0.9833
+Epoch 8/40
+20184/20184 [==============================] - 130s 6ms/step - loss: -0.9838 - multilabel_dice_coefficient: 0.9838 - val_loss: -0.9844 - val_multilabel_dice_coefficient: 0.9844
+Epoch 9/40
+20184/20184 [==============================] - 130s 6ms/step - loss: -0.9848 - multilabel_dice_coefficient: 0.9848 - val_loss: -0.9851 - val_multilabel_dice_coefficient: 0.9851
+Epoch 10/40
+20184/20184 [==============================] - 130s 6ms/step - loss: -0.9857 - multilabel_dice_coefficient: 0.9857 - val_loss: -0.9861 - val_multilabel_dice_coefficient: 0.9861
+Epoch 11/40
+20184/20184 [==============================] - 130s 6ms/step - loss: -0.9865 - multilabel_dice_coefficient: 0.9865 - val_loss: -0.9868 - val_multilabel_dice_coefficient: 0.9868
+Epoch 12/40
+20184/20184 [==============================] - 130s 6ms/step - loss: -0.9871 - multilabel_dice_coefficient: 0.9871 - val_loss: -0.9875 - val_multilabel_dice_coefficient: 0.9875
+Epoch 13/40
+20184/20184 [==============================] - 130s 6ms/step - loss: -0.9879 - multilabel_dice_coefficient: 0.9879 - val_loss: -0.9856 - val_multilabel_dice_coefficient: 0.9856
+Epoch 14/40
+20184/20184 [==============================] - 130s 6ms/step - loss: -0.9885 - multilabel_dice_coefficient: 0.9885 - val_loss: -0.9878 - val_multilabel_dice_coefficient: 0.9878
+Epoch 15/40
+20184/20184 [==============================] - 130s 6ms/step - loss: -0.9888 - multilabel_dice_coefficient: 0.9888 - val_loss: -0.9882 - val_multilabel_dice_coefficient: 0.9882
+Epoch 16/40
+20184/20184 [==============================] - 130s 6ms/step - loss: -0.9893 - multilabel_dice_coefficient: 0.9893 - val_loss: -0.9896 - val_multilabel_dice_coefficient: 0.9896
+Epoch 17/40
+20184/20184 [==============================] - 130s 6ms/step - loss: -0.9896 - multilabel_dice_coefficient: 0.9896 - val_loss: -0.9899 - val_multilabel_dice_coefficient: 0.9899
+Epoch 18/40
+20184/20184 [==============================] - 130s 6ms/step - loss: -0.9901 - multilabel_dice_coefficient: 0.9901 - val_loss: -0.9901 - val_multilabel_dice_coefficient: 0.9901
+Epoch 19/40
+20184/20184 [==============================] - 130s 6ms/step - loss: -0.9902 - multilabel_dice_coefficient: 0.9902 - val_loss: -0.9904 - val_multilabel_dice_coefficient: 0.9904
+Epoch 20/40
+20184/20184 [==============================] - 130s 6ms/step - loss: -0.9907 - multilabel_dice_coefficient: 0.9907 - val_loss: -0.9907 - val_multilabel_dice_coefficient: 0.9907
+Epoch 21/40
+20184/20184 [==============================] - 130s 6ms/step - loss: -0.9909 - multilabel_dice_coefficient: 0.9909 - val_loss: -0.9908 - val_multilabel_dice_coefficient: 0.9908
+Epoch 22/40
+20184/20184 [==============================] - 130s 6ms/step - loss: -0.9912 - multilabel_dice_coefficient: 0.9912 - val_loss: -0.9911 - val_multilabel_dice_coefficient: 0.9911
+Epoch 23/40
+20184/20184 [==============================] - 130s 6ms/step - loss: -0.9914 - multilabel_dice_coefficient: 0.9914 - val_loss: -0.9914 - val_multilabel_dice_coefficient: 0.9914
+Epoch 24/40
+20184/20184 [==============================] - 129s 6ms/step - loss: -0.9915 - multilabel_dice_coefficient: 0.9915 - val_loss: -0.9913 - val_multilabel_dice_coefficient: 0.9913
+Epoch 25/40
+20184/20184 [==============================] - 130s 6ms/step - loss: -0.9918 - multilabel_dice_coefficient: 0.9918 - val_loss: -0.9914 - val_multilabel_dice_coefficient: 0.9914
+Epoch 26/40
+20184/20184 [==============================] - 130s 6ms/step - loss: -0.9919 - multilabel_dice_coefficient: 0.9919 - val_loss: -0.9917 - val_multilabel_dice_coefficient: 0.9917
+Epoch 27/40
+20184/20184 [==============================] - 130s 6ms/step - loss: -0.9921 - multilabel_dice_coefficient: 0.9921 - val_loss: -0.9918 - val_multilabel_dice_coefficient: 0.9918
+Epoch 28/40
+20184/20184 [==============================] - 130s 6ms/step - loss: -0.9921 - multilabel_dice_coefficient: 0.9921 - val_loss: -0.9920 - val_multilabel_dice_coefficient: 0.9920
+Epoch 29/40
+20184/20184 [==============================] - 130s 6ms/step - loss: -0.9924 - multilabel_dice_coefficient: 0.9924 - val_loss: -0.9922 - val_multilabel_dice_coefficient: 0.9922
+Epoch 30/40
+20184/20184 [==============================] - 130s 6ms/step - loss: -0.9924 - multilabel_dice_coefficient: 0.9924 - val_loss: -0.9924 - val_multilabel_dice_coefficient: 0.9924
+Epoch 31/40
+20184/20184 [==============================] - 129s 6ms/step - loss: -0.9925 - multilabel_dice_coefficient: 0.9925 - val_loss: -0.9925 - val_multilabel_dice_coefficient: 0.9925
+Epoch 32/40
+20184/20184 [==============================] - 130s 6ms/step - loss: -0.9927 - multilabel_dice_coefficient: 0.9927 - val_loss: -0.9926 - val_multilabel_dice_coefficient: 0.9926
+Epoch 33/40
+20184/20184 [==============================] - 130s 6ms/step - loss: -0.9926 - multilabel_dice_coefficient: 0.9926 - val_loss: -0.9927 - val_multilabel_dice_coefficient: 0.9927
+Epoch 34/40
+20184/20184 [==============================] - 129s 6ms/step - loss: -0.9930 - multilabel_dice_coefficient: 0.9930 - val_loss: -0.9922 - val_multilabel_dice_coefficient: 0.9922
+Epoch 35/40
+20184/20184 [==============================] - 129s 6ms/step - loss: -0.9930 - multilabel_dice_coefficient: 0.9930 - val_loss: -0.9928 - val_multilabel_dice_coefficient: 0.9928
+Epoch 36/40
+20184/20184 [==============================] - 130s 6ms/step - loss: -0.9931 - multilabel_dice_coefficient: 0.9931 - val_loss: -0.9929 - val_multilabel_dice_coefficient: 0.9929
+Epoch 37/40
+20184/20184 [==============================] - 129s 6ms/step - loss: -0.9932 - multilabel_dice_coefficient: 0.9932 - val_loss: -0.9927 - val_multilabel_dice_coefficient: 0.9927
+Epoch 38/40
+20184/20184 [==============================] - 129s 6ms/step - loss: -0.9933 - multilabel_dice_coefficient: 0.9933 - val_loss: -0.9931 - val_multilabel_dice_coefficient: 0.9931
+Epoch 39/40
+20184/20184 [==============================] - 129s 6ms/step - loss: -0.9933 - multilabel_dice_coefficient: 0.9933 - val_loss: -0.9929 - val_multilabel_dice_coefficient: 0.9929
+Epoch 40/40
+20184/20184 [==============================] - 129s 6ms/step - loss: -0.9934 - multilabel_dice_coefficient: 0.9934 - val_loss: -0.9931 - val_multilabel_dice_coefficient: 0.9931
+> source( "predictUsingModel.R" )
+
+
+Reading prediction data (n = 29)
+  |======================================================================| 100%
+
+Creating Unet model from existing weights and doing prediction
+29/29 [==============================] - 1s 21ms/step
+
+Converting prediction data (n = 29)
+  |======================================================================| 100%
+
+
+> 
